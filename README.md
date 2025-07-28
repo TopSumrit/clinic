@@ -12,3 +12,7 @@
 1. เปิดโปรเจกต์ด้วย Visual Studio
 2. ตรวจสอบและแก้ไข path ของฐานข้อมูลในไฟล์ `connection.vb` ให้ตรงกับตำแหน่งไฟล์ `appointment.accdb` ในเครื่องของคุณ
 3. Build และ Run โปรแกรม
+
+## Screenshot
+<img height="300" alt="2" src="https://github.com/user-attachments/assets/3906b2fc-e12f-4804-bf9e-875094c3e955" />
+<img height="300" alt="1" src="https://github.com/user-attachments/assets/90367595-36ee-4e2b-8604-ea14688719cb" />
