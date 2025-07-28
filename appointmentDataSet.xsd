@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="appointmentDataSet" targetNamespace="http://tempuri.org/appointmentDataSet.xsd" xmlns:mstns="http://tempuri.org/appointmentDataSet.xsd" xmlns="http://tempuri.org/appointmentDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="appointmentConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="appointmentConnectionString (MySettings)" PropertyReference="ApplicationSettings.clinic.My.MySettings.GlobalReference.Default.appointmentConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="appointmentQueryTableAdapter" GeneratorDataComponentClassName="appointmentQueryTableAdapter" Name="appointmentQuery" UserDataComponentName="appointmentQueryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="appointmentConnectionString (MySettings)" DbObjectName="appointmentQuery" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT app_id, app_date, app_time, status, firstname, lastname, symptom FROM appointmentQuery</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="app_id" DataSetColumn="app_id" />
+              <Mapping SourceColumn="app_date" DataSetColumn="app_date" />
+              <Mapping SourceColumn="app_time" DataSetColumn="app_time" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="firstname" DataSetColumn="firstname" />
+              <Mapping SourceColumn="lastname" DataSetColumn="lastname" />
+              <Mapping SourceColumn="symptom" DataSetColumn="symptom" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="appointmentDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="appointmentDataSet" msprop:Generator_DataSetName="appointmentDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="appointmentQuery" msprop:Generator_RowEvHandlerName="appointmentQueryRowChangeEventHandler" msprop:Generator_RowDeletedName="appointmentQueryRowDeleted" msprop:Generator_RowDeletingName="appointmentQueryRowDeleting" msprop:Generator_RowEvArgName="appointmentQueryRowChangeEvent" msprop:Generator_TablePropName="appointmentQuery" msprop:Generator_RowChangedName="appointmentQueryRowChanged" msprop:Generator_RowChangingName="appointmentQueryRowChanging" msprop:Generator_TableClassName="appointmentQueryDataTable" msprop:Generator_RowClassName="appointmentQueryRow" msprop:Generator_TableVarName="tableappointmentQuery" msprop:Generator_UserTableName="appointmentQuery">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="app_id" msprop:Generator_ColumnPropNameInRow="app_id" msprop:Generator_ColumnPropNameInTable="app_idColumn" msprop:Generator_ColumnVarNameInTable="columnapp_id" msprop:Generator_UserColumnName="app_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="app_date" msprop:Generator_ColumnPropNameInRow="app_date" msprop:Generator_ColumnPropNameInTable="app_dateColumn" msprop:Generator_ColumnVarNameInTable="columnapp_date" msprop:Generator_UserColumnName="app_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="app_time" msprop:Generator_ColumnPropNameInRow="app_time" msprop:Generator_ColumnPropNameInTable="app_timeColumn" msprop:Generator_ColumnVarNameInTable="columnapp_time" msprop:Generator_UserColumnName="app_time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="firstname" msprop:Generator_ColumnPropNameInRow="firstname" msprop:Generator_ColumnPropNameInTable="firstnameColumn" msprop:Generator_ColumnVarNameInTable="columnfirstname" msprop:Generator_UserColumnName="firstname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lastname" msprop:Generator_ColumnPropNameInRow="lastname" msprop:Generator_ColumnPropNameInTable="lastnameColumn" msprop:Generator_ColumnVarNameInTable="columnlastname" msprop:Generator_UserColumnName="lastname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="symptom" msprop:Generator_ColumnPropNameInRow="symptom" msprop:Generator_ColumnPropNameInTable="symptomColumn" msprop:Generator_ColumnVarNameInTable="columnsymptom" msprop:Generator_UserColumnName="symptom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

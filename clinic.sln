@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "clinic", "clinic.vbproj", "{B81FC906-93EE-4492-A9F1-762523A9F999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Debug|x64.ActiveCfg = Debug|x64
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Debug|x64.Build.0 = Debug|x64
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Release|x64.ActiveCfg = Release|x64
+		{B81FC906-93EE-4492-A9F1-762523A9F999}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A702FD7-02B2-4FDC-8EF9-8DE1B79BADCF}
+	EndGlobalSection
+EndGlobal
