@@ -1,4 +1,4 @@
-# ระบบจองคิวคลินิก Clinic Management System
+# ระบบจองคิวคลินิก Clinic Appointment System
 เป็นโปรเจกต์ตอนเรียนวิชา การเขียนโปรแกรมเชิงวิชวร
 โปรเจกต์นี้เป็นระบบจัดการคลินิกที่พัฒนาด้วย Visual Basic (.NET) สำหรับ Windows Forms โดยใช้ฐานข้อมูล Microsoft Access ในการจัดเก็บข้อมูล
 
